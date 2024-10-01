@@ -1,0 +1,77 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://sfx/PitchAdjustedAudio.gd" type="Script" id=1]
+[ext_resource path="res://weapons/pdt.wav" type="AudioStream" id=2]
+[ext_resource path="res://ships/modules/PDT.gd" type="Script" id=3]
+[ext_resource path="res://lights/spotlight.png" type="Texture" id=4]
+[ext_resource path="res://weapons/laster-pulse.tscn" type="PackedScene" id=5]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 3759.0
+height = 0.0
+
+[node name="SYSTEM_BLI_PDT_LASER" type="Node2D"]
+script = ExtResource( 3 )
+gimbalLimit = 90
+repairFixPrice = 9000
+repairFixTime = 8
+repairReplacementPrice = 220000
+fireWithNoLock = true
+returnToDefault = true
+weaponPath = NodePath("Pivot/laster-pulse")
+systemName = "SYSTEM_BLI_PDT_LASER"
+autoFire = false
+rotationPerSecond = 3.14
+accurancy = 0.002
+aimOffset = 270.0
+iffRequired = 0.0
+
+[node name="RockArea" type="Area2D" parent="."]
+light_mask = 0
+collision_layer = 0
+collision_mask = 3
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RockArea"]
+light_mask = 0
+position = Vector2( 0, -4500 )
+rotation = -1.5708
+shape = SubResource( 1 )
+
+[node name="Pivot" type="Node2D" parent="."]
+position = Vector2( 0, 150 )
+
+[node name="Light" type="Light2D" parent="Pivot"]
+visible = false
+position = Vector2( 0, -160 )
+texture = ExtResource( 4 )
+texture_scale = 12.0
+color = Color( 1, 0.52549, 0.180392, 1 )
+energy = 12.5
+
+[node name="laster-pulse" parent="Pivot" instance=ExtResource( 5 )]
+position = Vector2( 0, -150 )
+pulsesPerSecond = 24
+powerDraw = 550000.0
+power = 500000.0
+systemName = "SYSTEM_CL200P"
+damageWearCapacity = 4500.0
+
+[node name="Flare" parent="Pivot/laster-pulse" index="1"]
+color = Color( 0.756863, 0.0941176, 0.188235, 1 )
+energy = 25.0
+
+[node name="Beam" parent="Pivot/laster-pulse" index="2"]
+color = Color( 0.756863, 0.0941176, 0.188235, 1 )
+energy = 20.0
+
+[node name="Actuation" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -17.0
+bus = "ShipBowels"
+script = ExtResource( 1 )
+
+[connection signal="body_entered" from="RockArea" to="." method="_on_DefendArea_body_entered"]
+[connection signal="body_exited" from="RockArea" to="." method="_on_DefendArea_body_exited"]
+
+[editable path="Pivot/laster-pulse"]
