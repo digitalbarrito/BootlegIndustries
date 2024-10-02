@@ -4,4 +4,6 @@ SYSTEM_BLI_PDT_LASER|BLI Point Defense Laser Turret
 
 SYSTEM_BLI_PDT_LASER_DESC|Bootleg Industries very own Junkyard Special, hot off the workbench. \n\nBLI Sourced and SalvagedTM: The CL-200AP serves as the perfect base for this unholy creation. Armed with retrofitted gimbal mounts from Obontu-Nakamura PDMWGs, our Point Defense Laser Turret has a whopping 90 degrees of gimbal angle. \n\n"Now how is any of this going to work?" We hear you ask, and our answer: We at Bootleg Industries have Sourced and SalvagedTM governing AI units from NDPT-4205's. BLI retrofits and reprograms these units, and our background certainly isn't in programming, as such we are not liable for any mishaps that may occur. We lovingly call it Class 0.5 AI. Point. Shoot. Laugh. We hope you enjoy. \n\n-Bootleg Industries.
 
-SYSTEM_BLI_PDT_LASER_SPECS|Effective range: 8000 m \nTargeting Range: We're Not Really Sure \nTargeting AI: Class-0.5 \nPower consumption (average): 220 MW \nOutput power: 200 MW \nPulse Frequency: 24-48hz \nWavelength: 650 nm \nMass: 5500 kg \nManufacturer: Bootleg Industries
+SYSTEM_BLI_PDT_LASER_SPECS|Effective range: 8,000 m \nTargeting Range: We're Not Really Sure \nTargeting AI: Class-0.5 \nPower consumption (average): 220 MW \nOutput power: 200 MW \nPulse Frequency: 24-48hz \nWavelength: 650 nm \nMass: 5,500 kg \nManufacturer: Bootleg Industries
+
+SYSTEM_BLI_PDT_LASER_MANUAL|Picks targets automatically and fires on command. \nTargeting computer is salvaged and retrofitted, thus highly imperfect. \nDeals Thermal and kinetic damage.
