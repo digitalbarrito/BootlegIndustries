@@ -1,0 +1,9 @@
+locale|en
+
+SYSTEM_AUTOPILOT_BLI|ERM-420 Autopilot
+
+SYSTEM_AUTOPILOT_BLI_DESC|The ERM-420 autopilot is the latest development from Bootleg Industries' Software Division. Bootleg Software was able to successfully reverse engineer the software running on NDCI and ER-42 autopilot modules. The result is an autopilot system with the performance characteristics of the ER-42 while being armed with the NDCI's integration with standard Heads-Up Display systems allowing for monitoring of the autopilot's tactical assessment. 
+
+SYSTEM_AUTOPILOT_BLI_SPECS|Developer: Bootleg Software \nCapabilities: Adaptive Angular Thrust \nFly-By-Wire \nRotational Thrust Computation \nAntipodal Reaction Limiter \nTrajectory Prediction \nFiring Solutions
+
+SYSTEM_AUTOPILOT_BLI_MANUAL|Displays predicted ship course. \nDisplays firing solutions. n\ARL: Cancels out opposite thrusters, conserving fuel. \nAAT: Observes cargo mass shifts and thruster damage to compute the minimum thrust required for manoeuvre. \nRTC: Dynamically computes the most performant thrusters to perform any manoeuvre. \nFBW: Routes all manual thruster input through the autopilot. \nCan use gimbaled main drives efficiently.
