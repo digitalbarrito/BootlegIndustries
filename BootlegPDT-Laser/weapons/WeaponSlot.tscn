@@ -5,3 +5,4 @@
 [node name="WeaponSlot" instance=ExtResource( 1 )]
 
 [node name="SYSTEM_BLI_PDT_LASER" parent="." index="36" instance_placeholder="res://BootlegPDT-Laser/ships/modules/BootlegPDT-Laser.tscn"]
+repairFixPrice = 45000
