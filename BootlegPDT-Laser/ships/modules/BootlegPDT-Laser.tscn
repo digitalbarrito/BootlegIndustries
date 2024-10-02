@@ -13,18 +13,19 @@ height = 0.0
 [node name="SYSTEM_BLI_PDT_LASER" type="Node2D"]
 script = ExtResource( 3 )
 gimbalLimit = 90
-repairFixPrice = 9000
+repairFixPrice = 45000
 repairFixTime = 8
 repairReplacementPrice = 220000
+repairReplacementTime = 2
 fireWithNoLock = true
 returnToDefault = true
 weaponPath = NodePath("Pivot/laster-pulse")
 systemName = "SYSTEM_BLI_PDT_LASER"
 autoFire = false
-rotationPerSecond = 3.14
+rotationPerSecond = 2.55
 accurancy = 0.002
 aimOffset = 270.0
-iffRequired = 0.0
+iffRequired = 0.75
 
 [node name="RockArea" type="Area2D" parent="."]
 light_mask = 0
@@ -55,7 +56,8 @@ pulsesPerSecond = 24
 powerDraw = 550000.0
 power = 500000.0
 systemName = "SYSTEM_CL200P"
-damageWearCapacity = 4500.0
+damageWearCapacity = 3500.0
+maxMissalignment = 0.097
 
 [node name="Flare" parent="Pivot/laster-pulse" index="1"]
 color = Color( 0.756863, 0.0941176, 0.188235, 1 )
