@@ -7,7 +7,7 @@
 | Bootleg's ERM-420 Autopilot System: [BootlegERM-420](https://github.com/digitalbarrito/BootlegIndustries/tree/main/BootlegERM-420). | An Autopilot System that combines the ER-42's performance and trajectory display, with the NDCI's Boresight. |
 | AchieveDeez! Gimme my Achievements Back!: [AchieveDeez](https://github.com/digitalbarrito/BootlegIndustries/tree/main/AchieveDeez). | Re-enables earning achievements in-game and on Steam/GoG when the modloader is active. |
 | AcheetaDeez! Gimmy my Achievements Back! *Cheetahs Welcome: [AcheetaDeez](https://github.com/digitalbarrito/BootlegIndustries/tree/main/AcheetaDeez). | Re-enables earning achievements in-game and on Steam/GoG when your save is marked cheated. |
-| TurnNBurn: [TurnNBurn](https://github.com/digitalbarrito/BootlegIndustries/tree/main/TurnNBurn). | Mod that allows you to set Keybinds for "180 degree flip from current heading" for quick TurnNBurns, and "orient ship to mouse location" to turn your ship towards where ever your mouse is. |
+| TurnNBurn: [TurnNBurn](https://github.com/digitalbarrito/BootlegIndustries/tree/main/TurnNBurn). | Mod that allows you to set Keybinds for "180 degree flip from current heading" for quick TurnNBurns, and "orient ship to mouse location" to turn your ship away from where ever your mouse is. |
 
 # How do I use these things?!?!
 ## Standard Mod Installation and Activation Steps for ΔV: Rings of Saturn:
