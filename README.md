@@ -8,6 +8,8 @@
 | AchieveDeez! Gimme my Achievements Back!: [AchieveDeez](https://github.com/digitalbarrito/BootlegIndustries/tree/main/AchieveDeez). | Re-enables earning achievements in-game and on Steam/GoG when the modloader is active. |
 | AcheetaDeez! Gimmy my Achievements Back! *Cheetahs Welcome: [AcheetaDeez](https://github.com/digitalbarrito/BootlegIndustries/tree/main/AcheetaDeez). | Re-enables earning achievements in-game and on Steam/GoG when your save is marked cheated. |
 | TurnNBurn: [TurnNBurn](https://github.com/digitalbarrito/BootlegIndustries/tree/main/TurnNBurn). | Mod that allows you to set Keybinds for "180 degree flip from current heading" for quick TurnNBurns, and "orient ship to mouse location" to turn your ship torch towards where ever your mouse is. |
+| M Is For MPU: [MIsForMPU](https://github.com/digitalbarrito/BootlegIndustries/tree/main/MIsForMPU). | Mod that adds a keybind to toggle the MPU on/off, I recommend M. |
+
 
 # How do I use these things?!?!
 ## Standard Mod Installation and Activation Steps for ΔV: Rings of Saturn:
