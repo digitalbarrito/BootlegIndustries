@@ -41,7 +41,7 @@
   1) Click the big green "[Code](https://github.com/digitalbarrito/BootlegIndustries/archive/refs/heads/main.zip)" button at the top of the page (or click the blue `Code` in these instructions).
   2) Click "Download ZIP".
   3) You should now have "BootlegIndustries-main.zip".
-  4) Extract "BootlegIndustries-main.zip" inside of "BootlegIndustries-main" you will find the individual folders for each mod.
+  4) Extract "BootlegIndustries-main.zip", inside of "BootlegIndustries-main" you will find the individual folders for each mod.
   5) Right click on the mod folder you want `(Ex: TurnNBurn)` and Click `Send to > Compressed "zipped" folder`
   6) Ensure the structure is as follows: `ModNameFolder.zip > ModNameFolder > contents of mod` `(Ex: TurnNBurn.zip > TurnNBurn > ModMain.gd, README.md, Settings.gd, ships)`
   7) Follow the `Standard Mod Installation and Activation Steps` below.
