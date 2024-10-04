@@ -28,6 +28,9 @@
 
    The Bootleg ERM-420 was born out of the fact the PDT-Laser now exists, and without it you aren't able to see where the things are pointing while using my favorite AP (ER-42). So I made a new ER-42, and added the NDCI's boresight capablity to it, and thus, ERM-420 was born. (Yes the 420 is a silly weed joke. You can't expect highbrow from me all the time lol. The M is to signify it's "Militarized" (Boresight from the Demilitarized NDCI).)
 
+### How is Bootleg Industries?:
+
+   Aww, thanks for asking, no one ever does. ***Unhinged and unstable***.
 
 
 # How do I use these things?!?!
