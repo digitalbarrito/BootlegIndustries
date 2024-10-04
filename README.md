@@ -16,7 +16,7 @@
 
 ### What is Bootleg Industies?:
 
-   Bootleg Industries is a fictional company created for the purposes of trying to be lore friendly within dV's current lore and universe. The general concept behind it is that Bootleg Industries is a young company getting by through sourcing and salvaging resources around the rings. Whether it be actual raw resources, or doing deals with the maintainence crew on Enceladus Prime, Bootleg Industries always seems to get what they need to cook their crazy ideas.
+   Bootleg Industries is a fictional company created for the purposes of trying to be lore friendly within dV's current lore and universe. The general concept behind it is that Bootleg Industries is a young company getting by through sourcing and salvaging resources around the rings. Whether it be actual raw resources, or doing deals with the maintainence crew on Enceladus Prime, Bootleg Industries always seems to get what they need to cook their crazy ideas. These crazy ideas often fly in the face of the base game's "sidegrades only" philosophy, but we're here for a fun time not a long time. While I don't really try to maintain "vanilla" balance or "sidegrading" I do attempt to give some amount of balance to my mods, generally through cost of ownership/maintainence. 
 
 ### Why is Bootleg Industries?:
 
