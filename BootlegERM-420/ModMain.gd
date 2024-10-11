@@ -23,7 +23,7 @@ func _init(modLoader = ModLoader):
 	# loads translation files that contain translations for different languages, but also tells the game the Display Name, Description, Specs, and User Manual entries.
 	
 	updateTL("i18n/en.txt", "|")
-	#updateTL("i18n/ua.txt", "|")
+	updateTL("i18n/ua.txt", "|")
 	
 	# extends ship-ctrl.gd to add the autopilot because most of it's exisetence is definied here.
 	installScriptExtension("ships/ship-ctrl.gd")
