@@ -56,14 +56,20 @@ pulsesPerSecond = 24
 powerDraw = 550000.0
 power = 500000.0
 systemName = "SYSTEM_CL200P"
-damageWearCapacity = 3500.0
-maxMissalignment = 0.097
+kineticDamageScale = 0.03
+damageWearCapacity = 7000.0
+damageBentCapacity = 3500.0
+damageBentThreshold = 300.0
+damagePumpDamageCapacity = 400000.0
+maxMissalignment = 0.197
+wearChance = 0.04
 
 [node name="Flare" parent="Pivot/laster-pulse" index="1"]
 color = Color( 0.756863, 0.0941176, 0.188235, 1 )
 energy = 25.0
 
 [node name="Beam" parent="Pivot/laster-pulse" index="2"]
+visible = true
 color = Color( 0.756863, 0.0941176, 0.188235, 1 )
 energy = 20.0
 

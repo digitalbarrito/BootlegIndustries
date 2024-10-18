@@ -2,7 +2,7 @@ extends Node
 
 # Set mod priority if you want it to load before/after other mods
 # Mods are loaded from lowest to highest priority, default is 0
-const MOD_PRIORITY = -100
+const MOD_PRIORITY = 0
 # Name of the mod, used for writing to the logs
 const MOD_NAME = "Bootleg PDT-Laser"
 # Path of the mod folder, automatically generated on runtime
